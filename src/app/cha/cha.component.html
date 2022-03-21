@@ -1,0 +1,8 @@
+<div class="box">
+  <h1>Cha component</h1>
+  <p class="message">{{ messageChaoCon }}</p>
+  <button (click)="choTien()">Cho con tien</button>
+
+  <app-con #teo name="Teo" (conGoi)="chaoCon($event)"></app-con>
+  <app-con #hanh name="Hanh" (conGoi)="chaoCon($event)"></app-con>
+</div>
